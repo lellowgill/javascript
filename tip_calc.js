@@ -29,8 +29,6 @@ if (serviceLevel) === 'good'
     return
 
 
-
-
     function cipher(string, offset) {
 
     }
@@ -60,7 +58,7 @@ function tipCalc(bill, service) {
     console.log(tipCalc(20, "good"));*/
 
     var goodServ = .20
-    var fairServ = .1
+    var fairServ = .1q
     var poorServ = .05
 
 //create another tip calculator 
