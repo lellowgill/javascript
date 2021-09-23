@@ -45,6 +45,12 @@ function leetspeak(word) {
 
 //counter = counter + 1;
 //return leetspeakString;
+//return newWord;
     return newWord.join(""); 
 }
 leetspeak("Amanda gail peterson");
+
+
+
+//keyword D.O.M. document object Model
+//KEYWORD B.O.M. Browser Object Model
