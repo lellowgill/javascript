@@ -33,7 +33,7 @@ printName();
 
 //several ways  to create a variables
 //var is Globally scooped
-var firstName = "Deborium";
+/**var firstName = "Deborium";
 
 let middleName = "Jo";
 
@@ -124,7 +124,7 @@ const answer = she("O", "M", "G")
 
 console.log(answer)
 
-function sayHello {
+/**function sayHello {
     return; 
 
     console.log('bye');
@@ -132,6 +132,64 @@ function sayHello {
 
 var greeting = sayHello();
 
-console.log(greeting);
+console.log(greeting);*/
+
 //if i print this to the console it will say undefined
-//var let const will save data for later
+//var, let, or const will save data for later
+
+/**const age = 25
+
+age = 30
+
+console.log(age);
+*/
+//I'll get an error with this formula because the constant function is not consistent
+//with the original value.
+/**
+ * rubric for const you can't the value of const
+ * in python we used def for define
+ * in Javascript it is function
+ * 
+ */
+
+const age = 11
+
+/**if (age >= 21) {
+    console.log('you may enter...');
+} else if (age >= 18) {
+    console.log('not just yet buddy...');
+} else {
+    console.log('bye...')
+}
+*/
+//there's a concept of if elif else
+
+
+switch (age) {
+    case 21:
+        console.log('you may enter...');
+    case 18:
+        console.log('bot just yet buddy');
+    default:
+        console.log('bye...');
+}
+//an expression is a 
+
+/**For Loop
+ * variable/value | condition | iterator
+ * 
+ * 1) get a value
+ * 2) check condition
+ * 3) if true, execute code block
+ * 4) iterate
+*/
+//for (let x = 0; x < 10; x++) {
+ //   console.log(x)
+//}
+let x = 0
+
+while (x < 10) {
+    console.log(x)
+
+    x++; //x = x + 11
+} 
