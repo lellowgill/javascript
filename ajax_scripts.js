@@ -34,3 +34,11 @@ requestButton.addEventListener("click", function() {
  * You can go to FN F12 TO inspect page and to go console to network throttling
  *  to change the loading times and network 
  */
+
+/**
+ * STATUS CODES
+ * 200s
+ * 300s
+ * 400s error code 404
+ * 500s Server Errors 
+ */
