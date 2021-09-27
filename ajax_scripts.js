@@ -37,8 +37,13 @@ requestButton.addEventListener("click", function() {
 
 /**
  * STATUS CODES
- * 200s
- * 300s
- * 400s error code 404
+ * 100s Info
+ * 200s Success
+ * 300s Redirects
+ * 400s Client Error error code 404
  * 500s Server Errors 
+ * A Client is a browser for example if you see an error in the 400s may be a human typo error
+ * The Browser is the Client
+ * 
  */
+
