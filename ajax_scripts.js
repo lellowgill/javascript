@@ -1,4 +1,4 @@
-//AJAX
+//AJAX 9/27/2021
 
 /**
  * Objective is to:
@@ -11,7 +11,7 @@
  */
 
 //XHR for short aka XMLHttpRequest()
-const request = new XMLHttpRequest();
+/** const request = new XMLHttpRequest();
 
 request.onreadystatechange = function () {
     console.log(this);
@@ -46,4 +46,13 @@ requestButton.addEventListener("click", function() {
  * The Browser is the Client
  * 
  */
+
+//Fetch command 
+//API | Application Programming Interface
+
+fetch ("http://placekitten.com/400/400").then(function(response) {
+    console.log(response);
+})
+
+
 
