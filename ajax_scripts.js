@@ -1,4 +1,4 @@
-//AJAX 9/27/2021
+//AJAX = Asynchronous JavaScript And XML 9/27/2021
 
 /**
  * Objective is to:
@@ -17,7 +17,7 @@ request.onreadystatechange = function () {
     console.log(this);
 };
 
-request.open("GET", "http://pladcekitten.com/400/400");
+request.open("GET", "http://placekitten.com/400/400");
 
 const requestButton = document.getElementsById("request-button");
 
@@ -50,9 +50,13 @@ requestButton.addEventListener("click", function() {
 //Fetch command 
 //API | Application Programming Interface
 
-fetch ("http://placekitten.com/400/400").then(function(response) {
+fetch ("http://placekitten.com/400/400")
+.then(function(response) {
     console.log(response);
 })
 
+.catch(function(error) {
+    console.log(error);
+})
 
 
