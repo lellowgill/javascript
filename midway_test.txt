@@ -1,0 +1,170 @@
+
+Create and open a file in VS code and provide answers for the following questions.
+This is open book. I want you to go look it up if you don’t know.
+Once you’ve completed it, push it up to a private repo on GitHub.
+
+
+1. What is an IP Address?
+An IP address is a unique identifier for a device or a local computer.
+
+2. What is the IP address to your computer?
+127.0.0.1 is the IP address.
+
+3. What is another name for the IP address of your computer?
+URL or website is another name for an IP address.
+
+4. What is a Port?
+
+A port is a virtual point where network connections start and end. 
+Ports are software-based and managed by a computer's operating system. 
+Each port is associated with a specific process or service.
+
+
+5. What is a Domain Name and what’s happening when you make a request to it via your browser?
+
+A unique name is that identify a website. Whenever you visit a website, 
+the domain name appears in the address bar of the web browser. 
+The server handles the request and sends back a response, transfer data packets between your 
+computer(client) and the server, 
+
+6. What is a Server?
+A server is a computer that provides data to other computers.
+
+7. Is a Server a part of the Backend or Frontend of the web?
+
+The client is usually considered the frontend and the server is usually considered the backend.
+
+8. What is a Client?
+The Browser
+
+9. Is a Client a part of the Backend or Frontend of the web?
+
+The client is part of the Frontend. 
+
+10. A Server-Side programming language is something that can do what?
+
+A Server-side programming language can request, get, fetch data, display different data when needed. 
+
+
+11. What are the primary languages to develop for the web / Client-Side?
+
+HTML, CSS, JavaScript and React are languages used to develop the client-side of apps.
+
+12. What does Node allow us to do with one of the Client-Side languages?
+
+Node allows us to access npm reusable packages to install. 
+A server-side JavaScript interpreter.
+
+13. What is one way to retrieve and use others code in my project?
+GitHub is one of the ways I can retrieve and use others code for my own projects. 
+
+
+14. Where can I find these different pieces of code?
+In the repository.
+
+15. What are these pieces of code called?
+They're called commits. 
+
+16. How can I create my own piece of code for use in my project or others?
+open source anybody can use and it is free to use, study, modify, 
+and distribute your project for any purpose. 
+
+17. How do I add that piece of code in a specific file I want to use it in?
+To add a code snippet: select the lines you want to reference, open the inline toolbar, 
+click Copy permanent link, and paste it anywhere.
+
+18. Where can I find all of the pieces of code I’ve added from others into my project?
+You can find it in your notes made in your code. 
+
+19. What is an HTTP request?
+Is a way to access a resource on the server.
+
+20. What are the various HTTP status codes and what do each of them relate to?
+Informational responses (100–199);
+Successful responses (200–299);
+Redirection messages (300–399);
+Client error responses (400–499);
+Server error responses (500–599);
+
+21. What is Routing?
+Network Routing is the process of selecting a path across one or more networks.
+
+22. What is an API?
+Application Programming Interface is a software intermediary 
+that allows two applications to talk to each other.
+
+23. What is an API Key?
+(An application programming interface key is a unique identifier used to authenticate a user, 
+developer, or calling program to an API)
+
+24. What is JSON?
+JavaScript Object Notation is a format for storing and transporting data.
+
+JSON is often used when data is sent from a server to a web page.
+
+
+25. What is the DOM?
+Document Object Model is a cross-platform and 
+language-independent interface that treats an HTML document as a 
+tree structure wherein each node is an object representing a part of the document. 
+
+26. What is the BOM?
+Browser Object Module | BOM main task is to manage browser windows and 
+enable communication between the windows. 
+
+
+27. What can we use in order to respond to some interaction on a web page?
+User Interface and GUI. Events and event Listeners
+
+28. Referring to the previous question, what are some specific things we can respond to?
+We can respond to an input and button or a input box. 
+Events are actions or occurrences that happen in the system you are programming.
+
+29. Where can I go to see a web pages’ requests and their statuses?
+We can go to the Devtools to inspect the page, check console and check status codes. 
+
+30. What can I use in code to ensure a website looks good on both a desktop browser and mobile browser?
+We would use a media query to make the page responsive the different devices. 
+
+31. What can I use in a browser to ensure a website looks good on mobile and desktop?
+WE also luse the Devtools in the webpage and inspect the page for responsiveness. 
+
+32. What type of CSS selector can I use to target a single element?
+We can use a CSS ID selector
+
+33. What type of CSS selector can I use to target multiple elements?
+We would use the parent element or a child element. 
+
+34. Describe the parent element and a child element.
+A parent is an element that is directly above and connected to an element in the document tree.
+
+A child is an element that is directly below and 
+connected to an element in the document tree.
+
+35. What does the return keyword do in JavaScript?
+The return statement stops the execution of a function and returns a value from that function.
+
+
+36. What’s the difference between let and const?
+
+const is almost exactly the same as let . However, the only difference is that once you've assigned a value to a variable using const , 
+you can't reassign it to a new value.
+
+Let can be changed in a later piece of code. 
+While const is constant and cannot be changed. 
+
+37. What are Promises in detail?
+A promise is an object that may produce a single value some time in the future.
+
+38. Why do we need Promises?
+Promise objects are used to perform asynchronous functions.
+
+Promises allow errors to be passed down the chain and 
+handled in one common place without having to put in layers of manual error handling
+
+39. What are two ways we can choose a set of code to run based on some condition?
+Two conditions if/else. 
+
+40. What’s one thing I can use to help me debug my code?
+The console within the DevTools. 
+The first and most obvious tip to debugging is to read the error message. 
