@@ -98,84 +98,109 @@ Client error responses (400–499);
 Server error responses (500–599);
 
 21. What is Routing?
-Network Routing is the process of selecting a path across one or more networks.
+Network Routing is the process of selecting/sending specific request a path across one or more networks.
+example ./friends
 
 22. What is an API?
-Application Programming Interface is a software intermediary 
+An Application Programming Interface is a software intermediary 
 that allows two applications to talk to each other.
 
 23. What is an API Key?
 (An application programming interface key is a unique identifier used to authenticate a user, 
 developer, or calling program to an API)
+prevents unauthorized uses the backend server.
 
 24. What is JSON?
 JavaScript Object Notation is a format for storing and transporting data.
 
 JSON is often used when data is sent from a server to a web page.
-
+PARSE
+string 
 
 25. What is the DOM?
-Document Object Model is a cross-platform and 
-language-independent interface that treats an HTML document as a 
+
+Document Object Model is a cross-platform (and 
+language-independent interface) that treats an HTML document as a 
 tree structure wherein each node is an object representing a part of the document. 
 
 26. What is the BOM?
+
 Browser Object Module | BOM main task is to manage browser windows and 
 enable communication between the windows. 
 
-
 27. What can we use in order to respond to some interaction on a web page?
+JavaScript
+res.end
 User Interface and GUI. Events and event Listeners
 
 28. Referring to the previous question, what are some specific things we can respond to?
+on mouse up on mouse down, mouse over, hover, click.
+User Interface and GUI. Events and event Listeners
 We can respond to an input and button or a input box. 
 Events are actions or occurrences that happen in the system you are programming.
 
 29. Where can I go to see a web pages’ requests and their statuses?
+Network tab to see the different statuses and codes.
 We can go to the Devtools to inspect the page, check console and check status codes. 
 
 30. What can I use in code to ensure a website looks good on both a desktop browser and mobile browser?
+
 We would use a media query to make the page responsive the different devices. 
 
 31. What can I use in a browser to ensure a website looks good on mobile and desktop?
-WE also luse the Devtools in the webpage and inspect the page for responsiveness. 
+Toggle device toolbar
+We also use the Devtools in the webpage and inspect the page for responsiveness. 
 
 32. What type of CSS selector can I use to target a single element?
-We can use a CSS ID selector
+
+We can use a CSS ID/Class/tag selector.
 
 33. What type of CSS selector can I use to target multiple elements?
-We would use the parent element or a child element. 
+ID/Class/tag selector
+
 
 34. Describe the parent element and a child element.
+
 A parent is an element that is directly above and connected to an element in the document tree.
+We would use the parent element or a child element. 
 
 A child is an element that is directly below and 
 connected to an element in the document tree.
 
 35. What does the return keyword do in JavaScript?
+
 The return statement stops the execution of a function and returns a value from that function.
 
 
 36. What’s the difference between let and const?
 
-const is (almost) exactly the same as let . However, the only difference is that once you've assigned a value to a variable using const , 
+const is (almost) exactly the same as let . However, the only difference is that once 
+you've assigned a value to a variable using const, 
 you can't reassign it to a new value.
 
 Let can be changed in a later piece of code. 
 While const is constant and cannot be changed. 
 
 37. What are Promises in detail?
+It can be rejected or accepted. 
 A promise is an object that may produce a single value some time in the future.
 
+method to run a function after a promise is resolved or rejected? 
+.then call when we want something to happen when we run the function. 
+
 38. Why do we need Promises?
+
 Promise objects are used to perform asynchronous functions.
+example: wait and respond call back function.
 
 Promises allow errors to be passed down the chain and 
 handled in one common place without having to put in layers of manual error handling
 
 39. What are two ways we can choose a set of code to run based on some condition?
-Two conditions if/else. 
+Two conditions if/else and switch statement. 
 
 40. What’s one thing I can use to help me debug my code?
+console.log can help us debug our code. 
+
 The console within the DevTools. 
 The first and most obvious tip to debugging is to read the error message. 
