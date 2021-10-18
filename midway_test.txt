@@ -200,6 +200,7 @@ handled in one common place without having to put in layers of manual error hand
 Two conditions if/else and switch statement. 
 
 40. What’s one thing I can use to help me debug my code?
+
 console.log can help us debug our code. 
 Debugger
 The console within the DevTools. 
