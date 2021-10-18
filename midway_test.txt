@@ -5,13 +5,14 @@ Once you’ve completed it, push it up to a private repo on GitHub.
 
 
 1. What is an IP Address?
-An IP address is a unique identifier for a device or a local computer.
+An IP address is a unique identifier for a device or a local computer within a network. 
+
 
 2. What is the IP address to your computer?
 127.0.0.1 is the IP address.
 
-3. What is another name for the IP address of your computer?
-URL or website is another name for an IP address.
+3. What is another name for the IP address of your local computer?
+URL or local host/website is another name for an IP address.
 
 4. What is a Port?
 
@@ -22,59 +23,69 @@ Each port is associated with a specific process or service.
 
 5. What is a Domain Name and what’s happening when you make a request to it via your browser?
 
-A unique name is that identify a website. Whenever you visit a website, 
+A unique name/address is that identify a website. Whenever you visit a website, 
 the domain name appears in the address bar of the web browser. 
 The server handles the request and sends back a response, transfer data packets between your 
-computer(client) and the server, 
+computer(client) and the server. 
 
 6. What is a Server?
 A server is a computer that provides data to other computers.
 
 7. Is a Server a part of the Backend or Frontend of the web?
 
-The client is usually considered the frontend and the server is usually considered the backend.
+The server is usually considered the backend.
 
 8. What is a Client?
 The Browser
 
 9. Is a Client a part of the Backend or Frontend of the web?
 
-The client is part of the Frontend. 
+The client is part of the Frontend which would be browser clients for example Chrome, Mozilla Firefox, Safari, Opera.
+The client is usually considered the frontend.
 
 10. A Server-Side programming language is something that can do what?
 
-A Server-side programming language can request, get, fetch data, display different data when needed. 
+A Server-side programming language can request, get, fetch data, 
+display different data when needed. Python
 
 
 11. What are the primary languages to develop for the web / Client-Side?
 
-HTML, CSS, JavaScript and React are languages used to develop the client-side of apps.
+HTML, CSS, JavaScript are languages used to develop the client-side of apps.
+(React is a library built on top of javascript)
 
 12. What does Node allow us to do with one of the Client-Side languages?
 
-Node allows us to access npm reusable packages to install. 
-A server-side JavaScript interpreter.
+(Node allows us to access npm reusable packages to install.)
+A server-side JavaScript interpreter. 
+
+Both your browser JavaScript and Node.js run on the V8 JavaScript runtime engine. 
+This engine takes your JavaScript code and converts it into a faster machine code. 
+Machine code is low-level code which the computer can run without needing to first interpret it.
 
 13. What is one way to retrieve and use others code in my project?
-GitHub is one of the ways I can retrieve and use others code for my own projects. 
+Inspect the page to check the code. 
+npm install a package
 
 
 14. Where can I find these different pieces of code?
-In the repository.
+In the npm registry.
 
 15. What are these pieces of code called?
-They're called commits. 
+node packages
+modules
 
 16. How can I create my own piece of code for use in my project or others?
-open source anybody can use and it is free to use, study, modify, 
-and distribute your project for any purpose. 
+module.export
+
 
 17. How do I add that piece of code in a specific file I want to use it in?
-To add a code snippet: select the lines you want to reference, open the inline toolbar, 
-click Copy permanent link, and paste it anywhere.
+module.import
+require 
 
 18. Where can I find all of the pieces of code I’ve added from others into my project?
-You can find it in your notes made in your code. 
+json package. package json
+npm init to access the json package
 
 19. What is an HTTP request?
 Is a way to access a resource on the server.
@@ -147,7 +158,7 @@ The return statement stops the execution of a function and returns a value from 
 
 36. What’s the difference between let and const?
 
-const is almost exactly the same as let . However, the only difference is that once you've assigned a value to a variable using const , 
+const is (almost) exactly the same as let . However, the only difference is that once you've assigned a value to a variable using const , 
 you can't reassign it to a new value.
 
 Let can be changed in a later piece of code. 
