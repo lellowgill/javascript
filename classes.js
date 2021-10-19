@@ -35,15 +35,21 @@ let WeisCookie = ("peanut butter", "medium", "60"); */
 //you pass in dynamically is the size
 
 
-//a Method is a Function Defined on an Object
+
 //It is considered good practice to name constructor functions with an upper-case first letter.
+/**The this Keyword
+In JavaScript, the thing called this is the object that "owns" the code.
 
+The value of this, when used in an object, is the object itself. */
 
+//Note that this. is not a variable. It is a keyword. You cannot change the value of this.
+// 
 function Order(items, price, delivery) {
+    //PROPERTIES: Values we can acces on an object. 
     this.items = items;
     this.price = price;
     this.delivery = delivery;
-    
+//Object consturctor function    
 }
 let order1 = {
     items: ["pizza", "salad", "breadsticks"],
@@ -63,3 +69,17 @@ console.log(order1, order2);
 //new
 //this
 //object constructor
+
+
+function Cookies(flavor, size) {
+    this.flavor = flavor;
+    this.size = size;
+    this.brandName = "Cookies";
+//a Method is a Function Defined on an Object
+    this.printDetails = function () {
+        console.log(this.flavor, this.size);
+    }
+}
+let name = new String("deborium");
+
+
