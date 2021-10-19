@@ -1,4 +1,3 @@
-
 Create and open a file in VS code and provide answers for the following questions.
 This is open book. I want you to go look it up if you don’t know.
 Once you’ve completed it, push it up to a private repo on GitHub.
