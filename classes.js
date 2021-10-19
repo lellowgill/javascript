@@ -27,6 +27,17 @@ let WeisCookie = ("peanut butter", "medium", "60"); */
  * Write an object constructor function that will allow us to do 
  * the same thing without repeating the structure/blueprint of an order
  */
+//this.items represents the object that is going to be returned
+//let obj = {}
+//Think about how you design your blueprint and if you want to add new flavors you will
+//need a different data type
+//lunchCookie.flavor.push("sugar") will let you add another flavor
+//you pass in dynamically is the size
+
+
+//a Method is a Function Defined on an Object
+//It is considered good practice to name constructor functions with an upper-case first letter.
+
 
 function Order(items, price, delivery) {
     this.items = items;
