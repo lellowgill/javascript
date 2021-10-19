@@ -13,7 +13,6 @@ body {
 	background-image: url('https://source.unsplash.com/1600x900/?nature,water;');
 	font-size: 120%;
 }
-
 .card {
 	display: flex;
 	flex-direction: column;
@@ -42,6 +41,12 @@ input.search-bar {
     font-size: 105%;
 	width: calc(100% - 100px);
 }
+/*button hover {
+	background: #7c7c7c6b;
+} */
+h1.temp {
+	margin: 0;
+}
 button {
     margin: 0.5em;
     border-radius: 50%;
@@ -53,11 +58,4 @@ button {
     color: white;
 	cursor:pointer;
 	transition: 0.2s ease-in-out;
-
-}
-button hover {
-	background: yellowgreen;
-}
-h1.temp {
-	margin: 0;
 }
