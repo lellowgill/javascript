@@ -77,6 +77,7 @@ function Cookies(flavor, size) {
     this.size = size;
     this.brandName = "Cookies";
 //a Method is a Function Defined on an Object
+//Anonymous function when place parentheses as empty ()
     this.printDetails = function () {
         console.log(this.flavor, this.size);
     }
