@@ -1,6 +1,7 @@
 //My class keyword created Class
 
 class Restaurant {
+    //class keyword used
     constructor() {
         this.orders = [];
         this.menu = {
