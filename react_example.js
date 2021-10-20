@@ -27,8 +27,21 @@ let myInfiniti = new Infiniti("pearl white", "premium");
 console.log(myInfiniti);
 
 /**
- * Class keyword
- * Extend
- * Super which builds on top of the function
- * reviewed object constructor functions
+ * :: OBJECT CONSTRUCTOR FUNCTION
+ *    A Function that constructors an object from the blueprint we provide
+ * 
+ * :: PROPERTIES
+ *    A value that you can set and access on an object
+ *    
+ * :: METHODS
+ *    A function that you can set and call on an object
+ * 
+ * :: CLASS
+ *    Keyword to used to create a class  
+ * 
+ * :: EXTEND
+ *    Keyword to select which class to build on top of or inherit from.
+ * 
+ * :: SUPER
+ *    Calls the constructor of the parent class or the class it's extending from
  */
