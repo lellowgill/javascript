@@ -5,8 +5,7 @@ class Car {
         this.color = color;
         this.numberOfWheels = 4;
         this.numberOfDoors = 4;
-        this.isRunning = false;
-    
+        this.isRunning = false, 
     }
 
     startEngine() {
