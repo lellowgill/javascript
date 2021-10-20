@@ -19,6 +19,41 @@ openSunRoof() {
     }
 }
 
+/**class Car {
+    constructor(radio, engine, sunRoof) {
+        this.radio = radio;
+        this.engine = engine;
+        this.sunRoof = sunRoof;
+        this.sunroofOpen = false;
+    }    
+    openSunroof(){
+         if (this.sunRoof){
+                this.sunroofOpen = true;
+            }
+    
+    }
+    closeSunroof() {
+         if (this.sunRoof) {
+               this.sunRoofOpen = false;
+            }
+        
+    }    
+}
+
+
+class CarBrand extends Car {
+    constructor(radio, engine, sunroof, make, model) {
+        super(radio, engine, sunroof);
+        this.make = make;
+        this.model = model;
+    }
+}
+
+let newCar = new CarBrand("bose", "v12", false, "BMW", "i8");
+
+newCar.openSunroof();
+console.log(newCar); */
+
 
 
 
