@@ -45,3 +45,4 @@ console.log(myInfiniti);
  * :: SUPER
  *    Calls the constructor of the parent class or the class it's extending from
  */
+
