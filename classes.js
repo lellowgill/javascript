@@ -41,11 +41,12 @@ let WeisCookie = ("peanut butter", "medium", "60"); */
 In JavaScript, the thing called this is the object that "owns" the code.
 
 The value of this, when used in an object, is the object itself. */
+// A class is blueprint when creating an object
 
 //Note that this. is not a variable. It is a keyword. You cannot change the value of this.
 // 
 function Order(items, price, delivery) {
-    //PROPERTIES: Values we can acces on an object. 
+    //PROPERTIES: Values we can access on an object. 
     this.items = items;
     this.price = price;
     this.delivery = delivery;
