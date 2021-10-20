@@ -1,6 +1,7 @@
 function Restaurant() {
     this.orders = [];
     this.menu = {
+        //you use a menu in the key value pairs
         theSpecial: {
             name: "sandwhich and soup",
             price: 12
