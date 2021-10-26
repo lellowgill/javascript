@@ -6,7 +6,7 @@ class Car {
         this.numberOfWheels = 4;
         this.numberOfDoors = 4;
         this.isRunning = false;
-    
+ 
     }
 
     startEngine() {

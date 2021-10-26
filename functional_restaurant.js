@@ -22,7 +22,10 @@ let ourRestaurant2 = {
     items: ["salad", "broccoli", "strawberries"],
     totalCost: 35,
 }
- function Restaurant(items, totalCost) {
+//function Restaurant(items: any, totalCost: any): you can order any item off of the menu
+//with a total cost
+
+function Restaurant(items, totalCost) {
     //PROPERTIES: Values we can access on an object. 
     this.items = items;
     this.totalCost = totalCost;
