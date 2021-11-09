@@ -1,6 +1,5 @@
 /**
  * 
- * PALINDROME
  *  A function that determines is a string
  * is a palindrome. "racecar" use lowerCase letters
  * @param {*} stringt    
